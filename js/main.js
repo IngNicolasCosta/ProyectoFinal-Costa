@@ -115,7 +115,7 @@ document.querySelector("#finalizar-compra").addEventListener("click", () => {
     }).then((result) => {
         if (result.isConfirmed) {
             Swal.fire('¡Éxito!', 'Presupuesto enviado.', 'success');
-            vaciarPresupuesto();
+            limpiarDatosCarrito();
             modal.classList.add("modal-hidden");
         }
     });
