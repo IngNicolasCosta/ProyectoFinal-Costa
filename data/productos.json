@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ladrillo Hueco 12x18x33 12T x 100",
+        "precio": 74300,
+        "categoria": "Ladrillos",
+        "descripcion": "Ladrillo cerámico hueco de 9 tubos. Ideal para tabiques y cerramientos no portantes.",
+        "img": "../assets/img/ladrillo-hueco.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Cemento Avellaneda x 25kg",
+        "precio": 7000,
+        "categoria": "Bolsas",
+        "descripcion": "Cemento Portland normal. Excelente trabajabilidad y resistencia final para hormigones.",
+        "img": "../assets/img/cemento-avellaneda.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Piedra Partida 6/20 x Bolson",
+        "precio": 82000,
+        "categoria": "Aridos",
+        "descripcion": "Piedra granítica de granulometría 6-20mm. Ideal para hormigón elaborado y drenajes.",
+        "img": "../assets/img/piedra-partida.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Arena Comun x Bolson",
+        "precio": 45000,
+        "categoria": "Aridos",
+        "descripcion": "Arena de río zarandeada, libre de arcilla. Apta para revoques finales y mezclas de asiento.",
+        "img": "../assets/img/arena-comun.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Cemento Loma Negra x 25kg",
+        "precio": 6400,
+        "categoria": "Bolsas",
+        "descripcion": "Cemento Portland de alta calidad. El estándar de confianza para estructuras y fundaciones.",
+        "img": "../assets/img/cemento-loma-negra.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Cascote Molido x Bolson",
+        "precio": 34000,
+        "categoria": "Aridos",
+        "descripcion": "Cascote de ladrillo seleccionado y molido. Ideal para contrapisos y rellenos de base.",
+        "img": ""
+    },
+    {
+        "id": 7,
+        "nombre": "Tierra Tosca x Bolson",
+        "precio": 30000,
+        "categoria": "Aridos",
+        "descripcion": "Tierra colorada compactable. Especial para relleno de terrenos y nivelaciones de obra.",
+        "img": ""
+    },
+    {
+        "id": 8,
+        "nombre": "Ladrillo Portante 12x19x33 x 100",
+        "precio": 123200,
+        "categoria": "Ladrillos",
+        "descripcion": "Ladrillo cerámico portante para muros estructurales. Gran capacidad de carga.",
+        "img": ""
+    },
+    {
+        "id": 9,
+        "nombre": "Cal Comun x 25kg",
+        "precio": 6300,
+        "categoria": "Bolsas",
+        "descripcion": "Cal hidratada aérea. Apta para morteros de asiento, revoques gruesos y finos.",
+        "img": ""
+    },
+    {
+        "id": 10,
+        "nombre": "Viga Pretensada x 5mts",
+        "precio": 26680,
+        "categoria": "Vigas",
+        "descripcion": "Viga autorresistente de hormigón pretensado para techos y entrepisos de viguetas.",
+        "img": ""
+    },
+    {
+        "id": 11,
+        "nombre": "Viga Pretensada x 4mts",
+        "precio": 17962,
+        "categoria": "Vigas",
+        "descripcion": "Viga de hormigón pretensado de 4 metros. Calidad certificada para losas seguras.",
+        "img": ""
+    },
+    {
+        "id": 12,
+        "nombre": "Viga Pretensada x 2mts",
+        "precio": 8500,
+        "categoria": "Vigas",
+        "descripcion": "Vigueta corta para refuerzos o luces pequeñas. Fácil manipulación en obra.",
+        "img": ""
+    },
+    {
+        "id": 13,
+        "nombre": "Varilla de Hierro 25mm x 12mts",
+        "precio": 105000,
+        "categoria": "Hierros",
+        "descripcion": "Barra de hierro de construcción nervado. Calidad técnica para estructuras de gran porte.",
+        "img": "../assets/img/varilla-hierro.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Malla Soldada N6 18x18 2x5mts",
+        "precio": 55600,
+        "categoria": "Hierros",
+        "descripcion": "Malla de acero para armaduras de plateas y pavimentos. Alambre de 6mm de espesor.",
+        "img": ""
+    },
+    {
+        "id": 15,
+        "nombre": "Malla Soldada N4 15x15 2x5mts",
+        "precio": 28400,
+        "categoria": "Hierros",
+        "descripcion": "Malla ligera para contrapisos reforzados y carpetas. Cuadrícula de 15x15cm.",
+        "img": ""
+    },
+    {
+        "id": 16,
+        "nombre": "Pegamento Porcellanato x 25kg",
+        "precio": 19600,
+        "categoria": "Pegamentos",
+        "descripcion": "Mezcla adhesiva de alta performance para piezas de baja absorción y grandes formatos.",
+        "img": ""
+    },
+    {
+        "id": 17,
+        "nombre": "Pegamento Impermeable x 25kg",
+        "precio": 7700,
+        "categoria": "Pegamentos",
+        "descripcion": "PAdhesivo con aditivos hidrófugos. Ideal para baños, cocinas y zonas húmedas.",
+        "img": ""
+    },
+    {
+        "id": 18,
+        "nombre": "Varilla de Hierro 10mm x 12mts",
+        "precio": 16900,
+        "categoria": "Hierros",
+        "descripcion": "Barra de hierro de construcción nervado. Calidad técnica para estructuras de gran porte.",
+        "img": "../assets/img/varilla-hierro.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "Ladrillo Comun x 100",
+        "precio": 21500,
+        "categoria": "Ladrillos",
+        "descripcion": "Ladrillo común seleccionado para frentes. Terminación rústica y estética uniforme.",
+        "img": "../assets/img/ladrillo-comun.jpg"
+    }
+]

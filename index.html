@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corralón - Simulador de Presupuestos</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>Corralón "El Ingeniero"</h1>
+            <div id="contenedor-carrito">
+                <button id="btn-carrito">🛒 Presupuesto (<span id="contador-carrito">0</span>)</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Simulador de Presupuestos</h2>
+            <p>Seleccioná los productos para obtener una cotización con IVA incluido.</p>
+        </section>
+
+        <section id="filtros"></section>
+
+        <div id="contenedor-productos" class="grid-productos">
+            </div>
+    </main>
+
+    <aside id="modal-carrito" class="modal-hidden container">
+        <h3 class="titulo-detalle">Tu Detalle</h3>
+        
+        <div class="carrito-layout">
+            <section id="carrito-items" class="columna-productos">
+                </section>
+
+            <section class="columna-resumen">
+                <div class="resumen-caja">
+                    <div class="resumen-linea">
+                        <span>Subtotal:</span>
+                        <span>$<span id="subtotal">0.00</span></span>
+                    </div>
+                    <div class="resumen-linea">
+                        <span>IVA (21%):</span>
+                        <span>$<span id="iva-total">0.00</span></span>
+                    </div>
+                    <hr>
+                    <div class="resumen-linea total-destacado">
+                        <span>Total Presupuesto:</span>
+                        <span>$<span id="precio-total">0.00</span></span>
+                    </div>
+                    
+                    <div class="acciones-verticales">
+                        <button id="finalizar-compra">Finalizar Presupuesto</button>
+                        <button id="vaciar-carrito">Vaciar Presupuesto</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </aside>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/stock.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
